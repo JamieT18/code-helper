@@ -1,0 +1,13 @@
+@@ -28,3 +28,12 @@ ENV/
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+*.streamlit/
+
+# API keys and secrets
+.env
+*.key
+secrets.toml
