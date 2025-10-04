@@ -12,8 +12,8 @@ Get started with the Advanced Code Helper AI in 5 minutes!
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/JamieT18/gene-sequence-analysis.git
-cd gene-sequence-analysis
+git clone https://github.com/JamieT18/code-helper.git
+cd code-helper
 ```
 
 ### Step 2: Install Dependencies
@@ -51,6 +51,7 @@ The app will automatically open in your browser at `http://localhost:8501`
 3. The app is now ready to use!
 
 > **Note:** Your API key is stored only in your browser session and is never saved to disk.
+
 ## First Steps
 
 ### Try These Examples
