@@ -1,4 +1,4 @@
-@@ -2,6 +2,25 @@
+# Code Helper & Gene Sequence Analyzer
 
 A comprehensive Python tool for analyzing DNA sequences from FASTA files. Features include ORF finding, codon usage analysis, and visualization.
 
@@ -15,6 +15,8 @@ A comprehensive Python tool for analyzing DNA sequences from FASTA files. Featur
 
 ### Quick Start
 ```bash
+git clone https://github.com/JamieT18/code-helper.git
+cd code-helper
 pip install -r requirements.txt
 streamlit run advanced_code_helper.py
 ```
@@ -24,10 +26,12 @@ streamlit run advanced_code_helper.py
 ## Features
 
 - **Robust FASTA parsing**: Supports multiline sequences, ignores headers, handles whitespace and non-standard characters gracefully
-@@ -95,3 +114,15 @@ The code is modular with clear separation of concerns:
-- `SequenceAnalyzer`: Main analysis orchestration
-- `Visualizer`: Plot generation with colorblind-friendly design
-- `OutputFormatter`: Console and JSON output formatting
+- **ORF finding**: Identifies open reading frames (start/stop codons, configurable minimum length)
+- **Codon usage analysis**: Frequency tables, visualization
+- **AI-powered code helper**: Explains, debugs, refactors code snippets; answers bioinformatics questions
+- **File upload & analysis**: Streamlit app analyzes FASTA, VCF, CSV, and script files
+- **Visualization**: GC content plots, codon usage charts
+- **Modular architecture**: Easily extend or modify components
 
 ## Repository Contents
 
